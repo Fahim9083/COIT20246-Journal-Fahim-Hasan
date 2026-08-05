@@ -3,9 +3,8 @@
 ## Student Information
 
 - Name: Fahim Hasan
-- Student ID: Your Student ID
-- Campus:
-- Tutor:
+- Student ID: 12331897
+- Campus: Sydney 
 
 ## Weekly Journal
 
