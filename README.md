@@ -9,3 +9,4 @@
 ## Weekly Journal
 
 - [Week 1](week01.md)
+- [Week 2](week02.md)
