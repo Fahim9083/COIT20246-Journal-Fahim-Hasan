@@ -1,8 +1,10 @@
 ## Task 1 - complete the quize
 
 
-## Task 2 - View Your Addresses
 ![PowerShell Output](images/week3-task1.png)
+
+## Task 2 - View Your Addresses
+
 ### Command
 
 ```powershell
