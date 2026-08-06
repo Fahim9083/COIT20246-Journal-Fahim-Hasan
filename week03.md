@@ -47,11 +47,11 @@ ping 172.20.10.1
 
 ### How I Found the Delay
 
-I used the `ping 172.20.10.1` command in PowerShell. The minimum, maximum and average round-trip times were displayed in the "Approximate round trip times in milli-seconds" section of the output.
+I used the ping 172.20.10.1 command in PowerShell. The minimum, maximum and average round-trip times were displayed in the "Approximate round trip times in milli-seconds" section of the output.
 
 ### Discussion
 
-The ping results show a stable connection between my computer and the local router. The minimum, maximum and average delay were all **2 ms**, indicating a fast and consistent local network connection.
+The ping results show a stable connection between my computer and the local router. The minimum, maximum and average delay were all 2 ms, indicating a fast and consistent local network connection.
 
 Network delay can change over time because of:
 - Wi-Fi signal strength
@@ -60,4 +60,4 @@ Network delay can change over time because of:
 - Router workload
 - Temporary wireless interference
 
-In this test, there was **0% packet loss**, which indicates that the connection to the router was reliable.
+In this test, there was 0% packet loss, which indicates that the connection to the router was reliable.
