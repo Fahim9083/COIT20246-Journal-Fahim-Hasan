@@ -4,7 +4,8 @@
 
 - Name: Fahim Hasan
 - Student ID: 12331897
-- Campus: Sydney 
+- Campus: Sydney
+- Teacher: Dr Mohammad Mohammad 
 
 ## Weekly Journal
 
