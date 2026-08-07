@@ -66,3 +66,36 @@ Network delay can change over time because of:
 - Temporary wireless interference
 
 In this test, there was 0% packet loss, which indicates that the connection to the router was reliable.
+
+
+## Task 4 - Ping Your OpenWRT Linux Server
+
+### Commands Used
+
+```bash
+ip link
+ip addr
+tcpdump -i br-mng -w /tmp/week3-task4-ping.pcap
+```
+
+```powershell
+ping 192.168.56.2
+```
+
+### OpenWRT Server Addresses
+
+| Address | Value | Description |
+|---------|-------|-------------|
+| Interface | br-mng | Management network interface |
+| IPv4 Address | 192.168.56.2 | The management IP address of the OpenWRT server |
+| MAC Address | 08:00:27:51:DA:12 | The hardware (MAC) address of the br-mng interface |
+
+### Packet Capture
+
+I started packet capture on the OpenWRT server using `tcpdump` on the `br-mng` interface. Then I pinged the server from my Windows computer using `ping 192.168.56.2`. After the ping completed, I stopped the packet capture by pressing **Ctrl + C**.
+
+The packet capture file was saved as:
+
+`week3-task4-ping.pcap`
+
+The `.pcap` file has been uploaded to my GitHub journal repository.
