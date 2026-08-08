@@ -241,7 +241,7 @@ I performed a second speed test at 10:20 AM using the same Optus 5G mobile hotsp
 | Ping | 40 ms |
 | Test Server | Wireline Group, Melbourne |
 
-![Speed Test 2](images/week3-task8-speedtest-2.png)
+![Speed Test 2](images/week3-task8-speedtest-22.png)
 
 ### Comparison of Speed Test Results
 
