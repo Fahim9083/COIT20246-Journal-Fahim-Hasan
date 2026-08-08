@@ -80,13 +80,13 @@ Therefore, the Linux kernel version running on my OpenWRT system is 5.10.161.
 
 ## My Description of VirtualBox
 
-A computer can run virtual machines thanks to virtualization software called VirtualBox. A virtual machine can have its own operating system and functions similarly to a standalone computer. You may learn, test, and run various operating systems without physically installing them on your computer by using VirtualBox.
+VirtualBox is a virtualization program that allows a computer to run virtual machines. A virtual machine operates similarly to a standalone computer and can have its own operating system. VirtualBox allows you to learn, test, and run several operating systems without having to physically install them on your computer.
 
 ---
 
 ## My Description of OpenWRT
 
-A Linux-based operating system called OpenWRT was created primarily for networking equipment like routers. It offers capabilities and tools for controlling network configurations and connections. OpenWRT is helpful for learning about networking and network administration because it can also be used as a virtual computer.
+OpenWRT is an operating system based on Linux that was developed mainly for networking devices such as routers. It provides tools and capabilities for managing connections and network configurations. Because OpenWRT may be used as a virtual computer, it is useful for learning about networking and network administration.
 
 ---
 
@@ -94,23 +94,23 @@ A Linux-based operating system called OpenWRT was created primarily for networki
 
 ### AI Prompt
 
-Write a brief explanation of OpenWRT and VirtualBox for a first-year IT student. Explain each one's purpose using straightforward language.
+Write a succinct description of VirtualBox and OpenWRT for a first-year IT student. Describe each one's goal in simple terms.
 
 ### AI Description of VirtualBox
 
-VirtualBox is a virtualization program that enables users to build and operate virtual machines on a computer. VirtualBox is helpful for studying, testing, and utilizing several operating systems because each virtual machine can run its own operating system.
+A virtualization tool called VirtualBox lets users create and run virtual machines on a computer. Because each virtual machine may run its own operating system, VirtualBox is useful for researching, testing, and using multiple operating systems.
 
 ### AI Description of OpenWRT
 
-An open-source Linux operating system called OpenWRT was created primarily for routers and other networking equipment. Users may configure and manage network connections using its sophisticated networking features.
+OpenWRT is an open-source Linux operating system designed mainly for routers and other networking devices. Its advanced networking features allow users to set up and control network connections.
 
 ---
 
 ## Comparison Between My Description and AI Description
 
-The primary goal of VirtualBox and OpenWRT is explained in both my and the AI-generated descriptions, which is why they are identical. Virtual machines are the main topic of my VirtualBox description, which also shows that they can run several operating systems. The use of OpenWRT as a Linux-based networking operating system is the main subject of my description.
+Both my and the AI-generated descriptions explain the main objective of VirtualBox and OpenWRT, which is why they are the same. My VirtualBox description focuses on virtual machines and demonstrates their ability to run several operating systems. The primary focus of my description is the use of OpenWRT as a networking operating system based on Linux.
 
-While the AI descriptions offer similar information, they are slightly more detailed and have slightly different wording. In general, both explanations provide a clear explanation of the primary function of OpenWRT and VirtualBox.
+Although the AI explanations provide comparable information, they differ slightly in terminology and are a little more extensive. Generally speaking, both answers give a clear overview of OpenWRT and VirtualBox's main purpose.
 
 
 ## Task 4 - Browse to OpenWRT Websites
@@ -169,6 +169,6 @@ The network information was obtained from the Network section at the bottom of t
 
 ## Task 5 - Complete Week 1 Tutorial
 
-I went over my Week 1 journal to make sure I had finished all of the assignments. Additionally, I verified that my Knowledge Test screenshot and Week 1 journal entry were part of my GitHub repository.
+I reviewed my Week 1 journal to be sure I had completed every task. I also confirmed that my Week 1 diary post and Knowledge Test screenshot were included in my GitHub repository.
 
-I have now completed the Week 1 and Week 2 tutorial activities.
+I've finished the lesson exercises for Weeks 1 and 2.
