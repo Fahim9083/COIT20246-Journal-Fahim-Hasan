@@ -203,3 +203,71 @@ tracert www.cloudflare.com
 ### Conclusion
 
 The tests successfully identified the domain name and IPv4 address of the selected website. The ping test received four successful replies with 0% packet loss and an average delay of 38 ms. The DNS lookup timed out, so additional DNS information could not be obtained from this test.
+
+## Task 8 - Home Internet Connection
+
+### Internet Connection Information
+
+I use a mobile phone hotspot to connect my computer to the Internet. The mobile network used for the hotspot is Optus 5G.
+
+| Item | Value |
+|------|-------|
+| Connection Type | 5G Mobile Hotspot |
+| ISP | Optus |
+| Mobile Network | 5G |
+| Data Rate | The actual speed varies depending on network conditions and time. |
+
+### Speed Test 1
+
+I performed the first speed test while connected to the Internet through my Optus 5G mobile hotspot.
+
+| Measurement | Result |
+|-------------|--------|
+| Download Speed | 703.44 Mbps |
+| Upload Speed | 7.45 Mbps |
+| Ping | 45 ms |
+| Test Server | Aussie Broadband, Melbourne |
+
+![Speed Test 1](images/week3-task8-speedtest-1.png)
+
+### Speed Test 2
+
+I performed a second speed test at 10:20 AM using the same Optus 5G mobile hotspot connection.
+
+| Measurement | Result |
+|-------------|--------|
+| Download Speed | 672.67 Mbps |
+| Upload Speed | 24.36 Mbps |
+| Ping | 40 ms |
+| Test Server | Wireline Group, Melbourne |
+
+![Speed Test 2](images/week3-task8-speedtest-2.png)
+
+### Comparison of Speed Test Results
+
+| Test | Time | Ping | Download | Upload |
+|------|------|------|----------|--------|
+| Test 1 | First test | 45 ms | 703.44 Mbps | 7.45 Mbps |
+| Test 2 | 10:20 AM | 40 ms | 672.67 Mbps | 24.36 Mbps |
+
+The two speed tests produced different results even though I used the same Optus 5G mobile hotspot connection. The download speed decreased from 703.44 Mbps to 672.67 Mbps, while the upload speed increased from 7.45 Mbps to 24.36 Mbps. The ping also decreased from 45 ms to 40 ms.
+
+### Why Can the Speed Change at Different Times?
+
+The performance of a mobile Internet connection can change over time for several reasons. One important factor is network congestion. When many people are using the same mobile network or cell tower, the available bandwidth may be shared between more users.
+
+The strength and quality of the 5G signal can also affect performance. The distance from the mobile tower, physical obstacles, interference and the location of the phone can cause changes in network performance.
+
+Other factors can include background Internet activity on the computer or phone, the number of devices connected to the hotspot, and temporary changes in the mobile network. The speed test server can also affect the measured result because the two tests may use different servers.
+
+### Why Is the Speed Test Different from the Data Rate?
+
+The speed shown by a speed test is the actual performance measured at a particular time. It can change depending on network conditions, congestion, signal quality and other factors.
+
+The data rate of an Internet service is the rate or maximum capacity associated with the service or network connection. It should not be assumed that a single speed-test result is the same as the advertised or maximum data rate of the service.
+
+For my mobile hotspot connection, the speed test results show that the actual Internet performance can vary. The first test recorded a download speed of 703.44 Mbps, while the second test recorded 672.67 Mbps.
+
+### Conclusion
+
+My Internet connection uses an Optus 5G mobile hotspot. The two speed tests demonstrate that Internet performance can vary at different times. Although both tests used the same mobile hotspot connection, the download speed, upload speed and ping were different. This shows that the measured speed depends on current network conditions and should not be treated as a fixed value.
