@@ -165,3 +165,10 @@ The network information was obtained from the Network section at the bottom of t
 - **MAC Address:** 08:00:27:28:1B:C4
 
 ![OpenWRT Network Information](images/week2-task4-network.png)
+
+
+## Task 5 - Complete Week 1 Tutorial
+
+I reviewed my Week 1 journal and checked that the required Week 1 activities were completed. I also checked that my Week 1 journal entry and Knowledge Test screenshot were included in my GitHub repository.
+
+I have now completed the Week 1 and Week 2 tutorial activities.
