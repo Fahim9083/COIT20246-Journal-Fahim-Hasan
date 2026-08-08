@@ -111,3 +111,57 @@ OpenWRT is an open-source Linux operating system designed mainly for routers and
 My descriptions and the AI-generated descriptions are similar because they both explain the main purpose of VirtualBox and OpenWRT. My VirtualBox description focuses on virtual machines and explains that they can run different operating systems. My OpenWRT description focuses on its use as a Linux-based operating system for networking.
 
 The AI descriptions provide similar information but use slightly different wording and provide a little more detail. Overall, both descriptions explain the main purpose of VirtualBox and OpenWRT clearly.
+
+
+## Task 4 - Browse to OpenWRT Websites
+
+### Example Web Site
+
+I accessed the example web site using the web browser on my Windows host operating system. The example web page loaded successfully.
+
+![Example Web Site](images/week2-task4-openwrt.png)
+
+---
+
+### OpenWRT Management Interface
+
+I accessed the OpenWRT management interface from my Windows web browser using the OpenWRT guest's management IP address.
+
+The management interface was accessed using:
+
+`http://192.168.56.2:81/cgi-bin/luci`
+
+After logging in with the OpenWRT root account, I was able to view the OpenWRT status and system information.
+
+![OpenWRT System Information](images/week2-task4-system.png)
+
+---
+
+### OpenWRT System Information
+
+The following information was recorded from the OpenWRT management interface:
+
+- **CPU:** 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+- **Architecture:** x86/64
+- **RAM:** 106.46 MiB (approximately 111,631,401 Bytes)
+- **Disk Size:** 102.33 MiB (approximately 107,300,782 Bytes)
+- **Operating System:** OpenWrt 22.03.3
+- **Kernel Version:** 5.10.161
+
+The OpenWRT management interface showed 106.46 MiB as the total available memory. The storage section showed a total disk space of 102.33 MiB.
+
+---
+
+### OpenWRT Network Information
+
+The network information was obtained from the Network section at the bottom of the OpenWRT management interface.
+
+- **Protocol:** DHCP client
+- **Address:** 10.0.3.15/24
+- **Gateway:** 10.0.3.2
+- **DNS 1:** 172.20.10.1
+- **DNS 2:** Not displayed
+- **Device:** Ethernet Adapter: eth1
+- **MAC Address:** 08:00:27:28:1B:C4
+
+![OpenWRT Network Information](images/week2-task4-network.png)
