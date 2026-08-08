@@ -99,3 +99,33 @@ The packet capture file was saved as:
 `week3-task4-ping.pcap`
 
 The `.pcap` file has been uploaded to my GitHub journal repository.
+
+
+## Task 5 - Academic Integrity Policy
+
+### Student Academic Integrity Policy and Procedure
+
+I reviewed the CQUniversity Student Academic Integrity Policy and Procedure. The policy explains that academic integrity means acting with honesty, trust, fairness, respect and responsibility in learning, teaching and research.
+
+### Five Levels of Academic Integrity Breaches
+
+1. **Level 1 - Inappropriate Academic Conduct**
+   - This is the lowest level of academic integrity breach.
+
+2. **Level 2 - Minor Academic Misconduct**
+   - This is a minor form of academic misconduct.
+
+3. **Level 3 - Moderate Academic Misconduct**
+   - This is a moderate level of academic misconduct.
+
+4. **Level 4 - Substantial Academic Misconduct**
+   - This is a substantial level of academic misconduct.
+   - It can include plagiarism, self-plagiarism, collusion, cheating and contract cheating.
+
+5. **Level 5 - Serious Academic Misconduct**
+   - This is the most serious level of academic misconduct.
+   - It can include plagiarism, self-plagiarism, collusion, cheating and contract cheating.
+
+### Policy Document
+
+The Student Academic Integrity Policy and Procedure PDF has been uploaded to my GitHub journal repository.
