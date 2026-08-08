@@ -1,3 +1,9 @@
+## Task 1 - Knowledge Test
+
+I completed the Week 1 Computer Systems and Applications Knowledge Test.
+
+![Knowledge Test](images/image.png)
+
 # Week 2 - Computer Systems and Applications
 
 ## Task 2 - Computer Information
