@@ -136,71 +136,70 @@ The Student Academic Integrity Policy and Procedure PDF has been uploaded to my 
 
 I selected the website **www.cloudflare.com**.
 
-### Address Information
+### 1. Ping Test
 
-| Address / Information | Result | How I found it |
-|---|---|---|
-| Domain Name | www.cloudflare.com | This is the website domain name used in the test. |
-| IPv4 Address | 104.16.124.96 | The address was displayed when I used the `ping www.cloudflare.com` command. |
-| IPv6 Address | Not obtained | An IPv6 address for the website was not obtained during my test. |
-| DNS Server | UnKnown / fe80::fc9c:a7ff:fe63:eb64 | This was displayed by the `nslookup` command as the configured DNS server. |
-| DNS Lookup Result | Timed out | The `nslookup` request timed out when trying to query the DNS server. |
-
-### Commands Used
+I used the following command to find the IP address and test connectivity to the website:
 
 ```powershell
 ping www.cloudflare.com
 ```
 
+The website resolved to the IPv4 address **104.16.124.96**.
+
+- Packets sent: 4
+- Packets received: 4
+- Packet loss: 0%
+- Minimum delay: 29 ms
+- Maximum delay: 46 ms
+- Average delay: 38 ms
+
+![Ping www.cloudflare.com](images/week3-task7-ping.png)
+
+### 2. DNS Information
+
+I used the `nslookup` command to investigate the DNS information for the website.
+
 ```powershell
 nslookup
 ```
 
-I entered:
+I then entered:
 
 ```text
 www.cloudflare.com
 ```
 
-in the nslookup prompt.
+The configured DNS server was shown as:
 
-I also used:
+```text
+UnKnown
+fe80::fc9c:a7ff:fe63:eb64
+```
+
+However, the DNS request timed out.
+
+![NSLookup www.cloudflare.com](images/week3-task7-nslookup.png)
+
+### 3. Traceroute
+
+I used the following command to investigate the network path to the website:
 
 ```powershell
 tracert www.cloudflare.com
 ```
 
-to investigate the network path to the website.
+![Traceroute to www.cloudflare.com](images/week3-task7-tracert.png)
 
-### Ping Results
+### Address Information
 
-The ping test successfully reached the website's IPv4 address, **104.16.124.96**.
-
-- Packets sent: 4
-- Packets received: 4
-- Packets lost: 0%
-- Minimum delay: 29 ms
-- Maximum delay: 46 ms
-- Average delay: 38 ms
-
-The result shows that the website responded successfully to all four ping requests.
-
-### DNS Lookup Result
-
-The `nslookup` command identified the configured DNS server as **UnKnown** with the address:
-
-```text
-fe80::fc9c:a7ff:fe63:eb64
-```
-
-However, the DNS requests timed out. Therefore, I could not obtain additional DNS address information from this `nslookup` test.
-
-### Address Information That Could Not Be Obtained
-
-I could not obtain all possible address information for the website. In particular, the `nslookup` test did not return a successful DNS response, so additional DNS records could not be identified from this test.
-
-A remote website's physical MAC address was also not identified because the MAC address of the remote server is not directly provided by these commands.
+| Address / Information | Result | How I found it |
+|---|---|---|
+| Domain Name | www.cloudflare.com | Website selected for the test |
+| IPv4 Address | 104.16.124.96 | Obtained from the `ping` command |
+| DNS Server | UnKnown / fe80::fc9c:a7ff:fe63:eb64 | Displayed by `nslookup` |
+| DNS Lookup | Timed out | `nslookup` did not receive a response |
+| Remote MAC Address | Not obtained | The remote server's MAC address was not provided by these tests |
 
 ### Conclusion
 
-The test successfully identified the domain name **www.cloudflare.com** and the IPv4 address **104.16.124.96**. The ping test showed 0% packet loss and an average response time of 38 ms. The DNS lookup, however, timed out when using the configured DNS server.
+The tests successfully identified the domain name and IPv4 address of the selected website. The ping test received four successful replies with 0% packet loss and an average delay of 38 ms. The DNS lookup timed out, so additional DNS information could not be obtained from this test.
