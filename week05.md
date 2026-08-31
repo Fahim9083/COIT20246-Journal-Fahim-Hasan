@@ -3,7 +3,7 @@
 I completed the Week 05 Knowledge Test.
 
 ## Task 2
-![PowerShell Output](images/week5task2.png)
+![PowerShell Output](images/week5task2 (2).png)
 
 ### Task 2 — Viewing Routing Table
 
