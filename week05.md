@@ -3,7 +3,7 @@
 I completed the Week 05 Knowledge Test.
 
 ## Task 2
-![image Info](https://github.com/smhimelahmed-dot/CQIT20246-T22026-S-M-Himel-Ahmed/blob/main/Images/week5task2.png)
+![PowerShell Output](images/week5task2.png)
 
 ### Task 2 — Viewing Routing Table
 
@@ -42,8 +42,7 @@ The `224.0.0.0/4` routes are used for IPv4 multicast traffic.
 The routing table shows `None`, meaning there are no manually configured persistent routes.
 
 ## Task 3(a) — IP Address Table
-![image Info](https://github.com/smhimelahmed-dot/CQIT20246-T22026-S-M-Himel-Ahmed/blob/main/Images/w5task3.drawio.png)
-
+![PowerShell Output](images/w5task3.drawio.png)
 
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |---|---|---|---|---|
