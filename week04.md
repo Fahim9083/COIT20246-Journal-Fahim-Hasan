@@ -8,9 +8,9 @@ I completed the Week 4 Knowledge Test as part of the tutorial activities.
 
 ## Task 2 - Project Initiation
 
-I joined a project group through the Group Formation - Project section on Moodle.
+I joined a project group through the **Group Formation - Project** section on Moodle.
 
-The project group was formed according to the requirements provided for the COIT20246 Networking and Cyber Security course.
+The project group was formed according to the requirements provided for the **COIT20246 Networking and Cyber Security** course.
 
 ---
 
@@ -20,7 +20,7 @@ The project group was formed according to the requirements provided for the COIT
 
 For this task, I created a switched Local Area Network (LAN) using diagrams.net (draw.io).
 
-The network contains one switch and four PCs. Each PC is connected directly to the switch.
+The network consists of one switch and four PCs. Each PC is connected directly to the switch, forming a star topology.
 
 ### Network Diagram
 
@@ -28,7 +28,7 @@ The network contains one switch and four PCs. Each PC is connected directly to t
 
 ### Original Draw.io File
 
-[Download the original draw.io file](images/week4-task3-lana.drawio)
+[Open the original draw.io file](images/week4-task3-lana.drawio)
 
 ---
 
@@ -36,7 +36,7 @@ The network contains one switch and four PCs. Each PC is connected directly to t
 
 For this task, I created a switched LAN containing eight PCs and three switches.
 
-Four PCs are connected to the first switch, and another four PCs are connected to the second switch. The two switches are then connected to a third switch, forming the required star topology.
+Four PCs are connected to the first switch, and another four PCs are connected to the second switch. The first two switches are connected to a third switch, forming a hierarchical star topology.
 
 ### Network Diagram
 
@@ -44,7 +44,7 @@ Four PCs are connected to the first switch, and another four PCs are connected t
 
 ### Original Draw.io File
 
-[Download the original draw.io file](images/week4-task3-lanb.drawio)
+[Open the original draw.io file](images/week4-task3-lanb.drawio)
 
 ---
 
@@ -52,7 +52,7 @@ Four PCs are connected to the first switch, and another four PCs are connected t
 
 For this task, I analysed a previously captured ping packet file using Wireshark.
 
-The packet capture was used to understand how ping operates from a networking and protocol perspective. I focused on ARP and ICMP packets and examined how data is encapsulated through different network layers.
+The packet capture was used to understand how the ping command operates from a networking and protocol perspective. I examined ARP and ICMP packets and investigated how information is encapsulated across different network layers.
 
 ---
 
@@ -60,7 +60,9 @@ The packet capture was used to understand how ping operates from a networking an
 
 I opened the ping packet capture file in Wireshark and inspected the packets.
 
-The main packets of interest were ARP packets and ICMP packets. Since many packets in the capture were similar, I focused on the different packets and their purpose.
+The capture contains both **ARP** and **ICMP** packets. The ARP packets are used to resolve the MAC address associated with an IP address, while the ICMP packets are used by the ping command to test connectivity between two devices.
+
+The first packets show the ARP address-resolution process, followed by ICMP Echo Request and Echo Reply packets used for connectivity testing.
 
 ### Wireshark Packet Capture
 
@@ -70,9 +72,19 @@ The main packets of interest were ARP packets and ICMP packets. Since many packe
 
 ## Task 4(b) - Network Diagram
 
-The network diagram shows the devices involved in the ping communication.
+The network diagram represents the two devices involved in the ping communication.
 
-The diagram includes the known IP addresses and MAC addresses of the devices involved in the communication.
+The packet capture identifies the following IP and MAC addresses:
+
+- **Device 1**
+  - IP Address: `192.168.56.1`
+  - MAC Address: `0A:00:27:00:00:0C`
+
+- **Device 2**
+  - IP Address: `192.168.56.2`
+  - MAC Address: `08:00:27:51:DA:12`
+
+The communication between the devices includes ARP address resolution followed by ICMP Echo Request and Echo Reply messages.
 
 ### Network Diagram
 
@@ -80,31 +92,30 @@ The diagram includes the known IP addresses and MAC addresses of the devices inv
 
 ### Original Draw.io File
 
-[Download the original draw.io file](images/week4-task4-ping.drawio)
+[Open the original draw.io file](images/week4-task4-ping.drawio)
 
 ---
 
 ## Task 4(c) - Purpose of ARP Packets
 
-ARP stands for Address Resolution Protocol.
+ARP stands for **Address Resolution Protocol**. It is used to determine the MAC address associated with an IPv4 address on a local network.
 
-ARP is used to find the MAC address associated with an IP address on a local network.
+In the packet capture, **192.168.56.1** sends an ARP Request to determine the MAC address of the device using IP address **192.168.56.2**.
 
-When a device knows the destination IP address but does not know the destination MAC address, it sends an ARP Request to discover the MAC address.
+The ARP Request is sent as a broadcast because the source device does not initially know the destination MAC address.
 
-The ARP Request is sent by the device that needs to communicate with another device on the local network. The request asks which device owns the required IP address.
+The device with IP address **192.168.56.2** responds with an ARP Reply containing its MAC address, **08:00:27:51:DA:12**.
 
-The device that owns that IP address responds with an ARP Reply containing its MAC address.
+This allows the source device to communicate with the destination device using Ethernet frames.
 
 ### ARP Communication
 
-The ARP communication observed in Wireshark was analysed to determine:
-
-- Who sent the ARP Request
-- Which IP address was being requested
-- Who received the request
-- Which device responded
-- The MAC address provided in the ARP Reply
+- **ARP Request sender IP:** `192.168.56.1`
+- **ARP Request sender MAC:** `0A:00:27:00:00:0C`
+- **Requested IP address:** `192.168.56.2`
+- **ARP Request destination MAC:** `FF:FF:FF:FF:FF:FF`
+- **ARP Reply sender IP:** `192.168.56.2`
+- **ARP Reply sender MAC:** `08:00:27:51:DA:12`
 
 ---
 
@@ -112,7 +123,33 @@ The ARP communication observed in Wireshark was analysed to determine:
 
 I analysed the first ARP packet in Wireshark and created a packet diagram to show its encapsulation.
 
-The diagram identifies the relevant Ethernet header, ARP information and the overall packet size in bytes.
+The first ARP packet is an **ARP Request** sent from `192.168.56.1` to determine the MAC address associated with `192.168.56.2`.
+
+### First ARP Packet Details
+
+**Ethernet Header**
+
+- Destination MAC: `FF:FF:FF:FF:FF:FF`
+- Source MAC: `0A:00:27:00:00:0C`
+- EtherType: `ARP (0x0806)`
+- Header size: `14 bytes`
+
+**ARP Header and Data**
+
+- Hardware Type: `Ethernet (1)`
+- Protocol Type: `IPv4 (0x0800)`
+- Hardware Address Length: `6`
+- Protocol Address Length: `4`
+- Operation: `Request (1)`
+- Sender MAC Address: `0A:00:27:00:00:0C`
+- Sender IP Address: `192.168.56.1`
+- Target MAC Address: `00:00:00:00:00:00`
+- Target IP Address: `192.168.56.2`
+- ARP message size: `28 bytes`
+
+The captured Ethernet frame has a total size of **60 bytes**.
+
+The remaining bytes are Ethernet padding used to meet the minimum Ethernet frame size.
 
 ### First ARP Packet Diagram
 
@@ -120,7 +157,7 @@ The diagram identifies the relevant Ethernet header, ARP information and the ove
 
 ### Original Draw.io File
 
-[Download the original draw.io file](images/week4-task4-arp-packet.drawio)
+[Open the original draw.io file](images/week4-task4-arp-packet.drawio)
 
 ---
 
@@ -128,27 +165,33 @@ The diagram identifies the relevant Ethernet header, ARP information and the ove
 
 The first two ICMP packets were examined in Wireshark.
 
-The first packet is an ICMP Echo Request. It is sent by the source device to test whether the destination device is reachable.
+The first packet is an **ICMP Echo Request**, which is sent by the source device to test whether the destination device is reachable.
 
-The second packet is an ICMP Echo Reply. It is sent by the destination device in response to the Echo Request.
+The second packet is an **ICMP Echo Reply**, which is sent by the destination device in response to the Echo Request.
 
-The Echo Request and Echo Reply are used by the ping command to test connectivity between two devices.
+The Echo Request and Echo Reply demonstrate successful communication between the two devices.
 
-### Packet Analysis
+### First ICMP Packet - Echo Request
 
-**First ICMP packet:**
+- Protocol: `ICMP`
+- ICMP Type: `8`
+- Message Type: `Echo Request`
+- Source IP: `192.168.56.1`
+- Destination IP: `192.168.56.2`
+- Source MAC: `0A:00:27:00:00:0C`
+- Destination MAC: `08:00:27:51:DA:12`
 
-- Protocol: ICMP
-- Type: Echo Request
-- Source: [Enter source IP from Wireshark]
-- Destination: [Enter destination IP from Wireshark]
+### Second ICMP Packet - Echo Reply
 
-**Second ICMP packet:**
+- Protocol: `ICMP`
+- ICMP Type: `0`
+- Message Type: `Echo Reply`
+- Source IP: `192.168.56.2`
+- Destination IP: `192.168.56.1`
+- Source MAC: `08:00:27:51:DA:12`
+- Destination MAC: `0A:00:27:00:00:0C`
 
-- Protocol: ICMP
-- Type: Echo Reply
-- Source: [Enter source IP from Wireshark]
-- Destination: [Enter destination IP from Wireshark]
+The Echo Request is used to test connectivity, while the Echo Reply confirms that the destination device received the request and was able to respond.
 
 ---
 
@@ -156,7 +199,42 @@ The Echo Request and Echo Reply are used by the ping command to test connectivit
 
 I created a packet diagram for the first ICMP packet.
 
-The diagram shows the main parts of the packet and demonstrates how the ICMP message is encapsulated within the network communication.
+The first ICMP packet is an **Echo Request** sent from `192.168.56.1` to `192.168.56.2`.
+
+### First ICMP Packet Details
+
+**Ethernet Header**
+
+- Source MAC: `0A:00:27:00:00:0C`
+- Destination MAC: `08:00:27:51:DA:12`
+- EtherType: `IPv4 (0x0800)`
+- Header size: `14 bytes`
+
+**IPv4 Header**
+
+- Source IP: `192.168.56.1`
+- Destination IP: `192.168.56.2`
+- Protocol: `ICMP (1)`
+- Header Length: `20 bytes`
+- Total IP Length: `60 bytes`
+
+**ICMP Header**
+
+- Type: `8`
+- Code: `0`
+- Message Type: `Echo Request`
+- Identifier: `1`
+- Sequence Number: `615`
+- ICMP Data: `32 bytes`
+
+The captured Ethernet frame has a total size of **74 bytes**.
+
+The packet structure is therefore:
+
+- Ethernet Header: `14 bytes`
+- IPv4 Packet: `60 bytes`
+- ICMP Header: `8 bytes`
+- ICMP Data: `32 bytes`
 
 ### First ICMP Packet Diagram
 
@@ -164,7 +242,7 @@ The diagram shows the main parts of the packet and demonstrates how the ICMP mes
 
 ### Original Draw.io File
 
-[Download the original draw.io file](images/week4-task4-icmp-packet.drawio)
+[Open the original draw.io file](images/week4-task4-icmp-packet.drawio)
 
 ---
 
@@ -172,9 +250,9 @@ The diagram shows the main parts of the packet and demonstrates how the ICMP mes
 
 This task is optional.
 
-The ARP table can be viewed using PowerShell to identify devices that are reachable by the computer on the local network.
+The ARP table can be viewed using PowerShell to identify devices that have been discovered on the local network.
 
-After communicating with other devices, such as by using ping or accessing websites, the ARP table can be checked to see whether new devices have been discovered.
+After communicating with other devices, for example by using the ping command or accessing websites, the ARP table can be checked to identify the IP and MAC addresses stored by the computer.
 
 ### ARP Table Screenshot
 
@@ -182,7 +260,7 @@ After communicating with other devices, such as by using ping or accessing websi
 
 ### Reachable Devices
 
-| Device | MAC Address | Reason |
-|---|---|---|
-| Device 1 | [Enter MAC address] | Discovered in the ARP table after network communication |
-| Device 2 | [Enter MAC address] | Discovered in the ARP table after network communication |
+| Device | IP Address | MAC Address | Reason |
+|---|---|---|---|
+| Device 1 | `192.168.56.1` | `0A:00:27:00:00:0C` | Discovered through ARP communication |
+| Device 2 | `192.168.56.2` | `08:00:27:51:DA:12` | Discovered through ARP communication |
