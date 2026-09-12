@@ -59,3 +59,24 @@ Finally, I would use a modern wireless mode where supported so compatible device
 ### Screenshot
 
 I explored the wireless router settings using the TP-Link web emulator.
+![Wi-Fi Access Point Settings](images/week7-task3-ap-settings.png)
+
+
+### Generative AI Suggestions for Improving Teamwork
+
+I used generative AI to identify practical ways to improve teamwork in a university group project.
+
+The main suggestions were:
+
+1. Communicate regularly with team members.
+2. Clearly divide tasks and responsibilities.
+3. Set clear deadlines.
+4. Share progress regularly.
+5. Participate actively in team meetings.
+6. Take responsibility for assigned tasks.
+7. Support team members when they experience difficulties.
+8. Review and provide feedback on each other's work.
+9. Use collaboration tools such as GitHub effectively.
+10. Resolve disagreements respectfully and focus on the project goals.
+
+![Generative AI Teamwork Suggestions](images/week7-task4-ai-teamwork.png)
