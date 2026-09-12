@@ -30,3 +30,32 @@ The laptop was connected to the AP using the 5 GHz frequency band and the 802.11
 ### Screenshot
 
 ![Wi-Fi Access Point Details](images/week7-task2-wifi-details.png)
+
+## Task 3 - Use Wi-Fi Access Point
+
+I explored the settings of a wireless router using the TP-Link web emulator.
+
+### Important Wi-Fi Settings
+
+| Setting | What I would consider changing | Reason |
+|---|---|---|
+| SSID | Use a clear and unique network name | This makes the Wi-Fi network easy to identify. |
+| Security | Use WPA3-Personal where supported | WPA3 provides stronger wireless security. |
+| Wi-Fi Password | Use a strong and unique password | A strong password helps prevent unauthorised access. |
+| Channel | Select a less congested channel | This can reduce interference from nearby Wi-Fi networks. |
+| Channel Width | Use an appropriate channel width | This provides a balance between wireless performance and interference. |
+| Wireless Mode | Use a modern Wi-Fi standard where supported | This can provide better performance for compatible devices. |
+
+### Discussion
+
+When designing a Wi-Fi network, I would consider the SSID, security, password, channel, channel width and wireless mode.
+
+I would use a clear and unique SSID so users can easily identify the correct network. I would use WPA3-Personal where supported because it provides stronger wireless security. I would also use a strong and unique password to reduce the risk of unauthorised access.
+
+I would select a less congested wireless channel to reduce interference from nearby networks. I would also choose an appropriate channel width because the choice of channel width can affect wireless performance and interference.
+
+Finally, I would use a modern wireless mode where supported so compatible devices can achieve better performance.
+
+### Screenshot
+
+I explored the wireless router settings using the TP-Link web emulator.
