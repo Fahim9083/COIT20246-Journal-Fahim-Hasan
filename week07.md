@@ -80,3 +80,31 @@ The main suggestions were:
 10. Resolve disagreements respectfully and focus on the project goals.
 
 ![Generative AI Teamwork Suggestions](images/week7-task4-ai-teamwork.png)
+
+## Task 4 - Self-Evaluation of Teamwork
+
+### Part B - Comparison with Generative AI Suggestions
+
+The generative AI suggestions provided several practical ways to improve teamwork, including regular communication, clear task allocation, participation in meetings, accountability, helping team members, and sharing progress.
+
+I compared these suggestions with the way my project team currently works.
+
+| AI Suggestion | Current Team Practice | What I Can Improve |
+|---|---|---|
+| Communicate regularly | Our team communicates regularly using the agreed communication method. | I will continue to communicate regularly and provide updates about my progress. |
+| Clearly divide tasks | Tasks have been divided between team members. | I will make sure my assigned tasks are clearly understood and completed on time. |
+| Participate in meetings | Our team participates in team meetings and discussions. | I will participate actively and share my ideas during meetings. |
+| Share progress regularly | Team members discuss their progress with each other. | I will provide regular updates about my assigned work. |
+| Take responsibility for assigned tasks | I am responsible for completing my assigned work. | I will complete my tasks on time and inform the team if I have any difficulties. |
+| Support team members | Team members help each other when needed. | I will continue to help other members when they need support. |
+| Review each other's work | Team members discuss and check project work. | I will review other team members' work when required and provide useful feedback. |
+| Use collaboration tools such as GitHub | Our team uses GitHub for the project. | I will use GitHub regularly and make clear contributions to the project repository. |
+| Resolve disagreements respectfully | Team members discuss project issues and work together to solve them. | I will communicate respectfully and focus on finding solutions to project problems. |
+
+### Reflection
+
+Overall, my current team practices are consistent with many of the suggestions provided by generative AI. Our team communicates, divides tasks, participates in meetings, uses GitHub, and supports each other.
+
+To improve my teamwork over the next few weeks, I will communicate my progress more regularly, complete my assigned tasks on time, participate actively in discussions, and make clear contributions to the GitHub project repository.
+
+My main contribution to the project so far has been **[write your actual contribution here]**.
