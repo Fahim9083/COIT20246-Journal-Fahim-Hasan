@@ -3,6 +3,7 @@
 ## Task 1 - Knowledge Test
 
 I completed the Week 4 Knowledge Test as part of the tutorial activities.
+![Knowledge Test](images/image4.png)
 
 ---
 
