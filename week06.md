@@ -78,11 +78,11 @@ The packet capture was saved as:
 
 A Windows ARP table was also checked to identify reachable devices.
 
-![ARP Table](images/week6task3pic1.png)
+![ARP Table](images/3.png)
 
 ### Ping
 
-![Ping Test](images/week6task3pic2.png)
+![Ping Test](images/4.png)
 
 ---
 
