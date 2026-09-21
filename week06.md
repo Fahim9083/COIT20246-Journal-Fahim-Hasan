@@ -4,7 +4,7 @@
 
 Completed the Week 6 Knowledge Test covering the concepts discussed in the tutorial.
 
-![Knowledge Test Result](Images/week6task1.png)
+![Knowledge Test Result](images/week6task1.png)
 
 ### Test Result
 
@@ -48,13 +48,13 @@ The webpage includes my name, student ID, a date and time button, and an externa
 
 The following screenshot shows the files being uploaded to the OpenWRT web server using FileZilla.
 
-![FileZilla](Images/01.png)
+![FileZilla](images/01.png)
 
 ### Personal Web Page
 
 The following screenshot shows my personal webpage.
 
-![Personal Web Page](Images/02.png)
+![Personal Web Page](images/02.png)
 
 The webpage contains:
 
@@ -78,11 +78,11 @@ The packet capture was saved as:
 
 A Windows ARP table was also checked to identify reachable devices.
 
-![ARP Table](Images/week6task3pic1.png)
+![ARP Table](images/week6task3pic1.png)
 
 ### Ping
 
-![Ping Test](Images/week6task3pic2.png)
+![Ping Test](images/week6task3pic2.png)
 
 ---
 
@@ -107,11 +107,11 @@ After loading the HTML page, the browser sent a GET request for `/mystyle.css` t
 | 26 | HTTP Request | `GET /mystyle.css HTTP/1.1` |
 | 29 | HTTP Response | `HTTP/1.1 200 OK (text/css)` |
 
-![HTTP Request](Images/week6task4pic1.png)
+![HTTP Request](images/week6task4pic1.png)
 
-![HTTP Response](Images/week6task4pic2.png)
+![HTTP Response](images/week6task4pic2.png)
 
-![CSS Request and Response](Images/week6task4pic3.png)
+![CSS Request and Response](images/week6task4pic3.png)
 
 ---
 
@@ -141,7 +141,7 @@ The Wireshark capture shows HTTP requests for the HTML page and the CSS file, bu
 
 The date and time was displayed directly in the browser using JavaScript, so another request to the web server was not required.
 
-![Date and Time Button](Images/week6task4pic4.png)
+![Date and Time Button](images/week6task4pic4.png)
 
 ---
 
@@ -226,7 +226,7 @@ The transport protocol shown in Wireshark is:
 
 **TCP (Transmission Control Protocol)**
 
-![HTTP Version and TCP](Images/week6task4pic5.png)
+![HTTP Version and TCP](images/week6task4pic5.png)
 
 ---
 
@@ -234,7 +234,7 @@ The transport protocol shown in Wireshark is:
 
 The TCP connection was established using the three-way handshake.
 
-![TCP Three-Way Handshake](Images/week6task4pic2.png)
+![TCP Three-Way Handshake](images/week6task4pic2.png)
 
 ### TCP Connection Setup
 
@@ -286,7 +286,7 @@ Cookies can be used to maintain sessions, remember user preferences, and help we
 
 For privacy reasons, the exact cookie values have not been included.
 
-![YouTube Cookies](Images/week6task5.png)
+![YouTube Cookies](images/week6task5.png)
 
 ---
 
