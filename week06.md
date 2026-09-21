@@ -226,15 +226,11 @@ The transport protocol shown in Wireshark is:
 
 **TCP (Transmission Control Protocol)**
 
-![HTTP Version and TCP](images/week6task4pic5.png)
-
 ---
 
 ## Task 4(h) – TCP Connection Setup
 
 The TCP connection was established using the three-way handshake.
-
-![TCP Three-Way Handshake](images/week6task4pic2.png)
 
 ### TCP Connection Setup
 
