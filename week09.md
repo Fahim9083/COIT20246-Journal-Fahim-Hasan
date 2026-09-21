@@ -112,8 +112,7 @@ To list the most likely types of adversarial threat sources (attackers) for the 
 
 ### Discussion
 
-The most likely and most damaging sources for a small business are **cybercriminals** and **insiders**. Cybercriminals target small businesses because they often have weaker defences. Insiders already have legitimate access and can bypass perimeter security. Nation-state attackers are unlikely to target a small business, so I have not included them.
-
+**Insiders** and **cybercriminals** are the most likely and destructive sources for a small business. Because small enterprises frequently have poorer security, cybercriminals target them. Insiders can get beyond perimeter security because they already have authorised access. I have left out nation-state attackers because they are unlikely to target small businesses.
 ---
 
 ## Task 4 – Explore Vulnerabilities
@@ -149,7 +148,7 @@ To examine real vulnerabilities published in the past 12 months and describe the
 
 **Simple explanation**
 
-React Server Components send data between the browser and the server in a special format. The server converts this data back into objects (deserialisation) without properly checking it first. An attacker can therefore send one specially crafted web request and trick the server into running the attacker's own code. No login is needed, so any exposed server using the affected versions could be fully taken over. This is why the score is the maximum of 10.0.
+React Server Components use a unique format to transfer data from the browser to the server. Deserialisation is the process by which the server transforms this data back into objects without first adequately verifying it. As a result, an attacker can mislead the server into executing their own code by sending a single, well constructed web request. Any exposed server utilising the impacted versions could be completely taken over because no login is required. For this reason, the maximum score is 10.0.
 
 **Detection and mitigation**
 
@@ -178,7 +177,7 @@ React Server Components send data between the browser and the server in a specia
 
 **Simple explanation**
 
-The RasMan service runs with very high privileges (SYSTEM). It does not check properly whether the person asking it to do something is allowed to. An attacker who already has a normal, low-privilege account on the computer can exploit this to gain SYSTEM rights and take full control of the machine. It is rated High rather than Critical because the attacker must already be logged in locally, so it cannot be exploited directly over the internet. However, Microsoft reported that it was being exploited before a patch was available (a zero-day), and it was added to CISA's Known Exploited Vulnerabilities catalogue.
+Extremely high privileges are used by the RasMan service (SYSTEM). It improperly determines whether the person requesting the action is permitted to do so. This can be used by an attacker who already has a regular, low-privilege account on the computer to obtain SYSTEM rights and take over the entire system. Because the attacker must already be logged in locally in order to exploit it directly over the internet, it is graded High rather than Critical. It was added to CISA's Known Exploited Vulnerabilities collection when Microsoft revealed that it was being exploited prior to the release of a fix (a zero-day).
 
 **Detection and mitigation**
 
@@ -219,25 +218,24 @@ This flaw was found by researchers who were testing whether the fix for CVE-2025
 
 ### Reflection
 
-CVE-2025-55182 and CVE-2025-55183 come from the same product, and the second was found while researchers were testing the fix for the first. This shows how one serious flaw often leads to more discoveries. The three CVEs also show why severity depends on more than the type of flaw. The critical one needs no login and works over the network, the High one needs local access, and the Medium one leaks information but does not give control of the system.
-
+The same product is the source of CVE-2025-55182 and CVE-2025-55183, the latter of which was discovered while researchers were evaluating the first's remedy. This demonstrates how one significant defect frequently results in further discoveries. The three CVEs also demonstrate why the type of defect is not the only factor influencing severity. The High one requires local access, the Medium one leaks data but does not grant system control, and the Critical one operates across the network and requires no login.
 ---
 
 ## Task 5 – Vulnerability Disclosures
 
 ### Viewpoint
 
-Vulnerability disclosure is a balance between two risks: telling people too early, before a fix exists, and telling them too late, while attackers may already be exploiting the flaw. I think **coordinated (responsible) disclosure** is the best approach. The researcher reports the vulnerability privately to the vendor and both agree on a timeframe before it is made public.
+Vulnerability disclosure strikes a balance between two risks: alerting people too soon, before a fix is available, and alerting them too late, when attackers might already be taking use of the vulnerability. I believe the best course of action is **coordinated (responsible) disclosure**. The vendor and the researcher agree on a timeline before the vulnerability is made public after the researcher exposes it to them in private.
 
-**Why vendors take time.** A vendor must reproduce the problem, find the root cause, write a fix and test it across many product versions and platforms. A rushed patch can break other things or, as the React CVEs show, leave the flaw partly unfixed. Vendors also often release patches on a fixed schedule, such as Microsoft's monthly Patch Tuesday, and may need to coordinate with other companies whose products depend on the same component.
+**Why vendors take time.** A vendor needs to replicate the issue, identify the underlying cause, develop a solution, and test it on a variety of platforms and product versions. As demonstrated by the React CVEs, a hastily applied patch may cause other issues or leave the defect partially unresolved. Additionally, vendors may need to work with other businesses whose products rely on the same component and frequently release fixes on a set schedule, such as Microsoft's monthly Patch Tuesday.
 
-**What is a reasonable time?** Common practice is around 45 to 90 days for software. Hardware or embedded devices can justify longer, because updates are harder to deliver. If a flaw is already being exploited in the wild, I think the timeline should be much shorter, because users need to know so they can protect themselves.
+**What is a reasonable time?** Software typically takes between 45 and 90 days. Because updates are more difficult to deploy, hardware or embedded devices can justify longer. I believe the timescale should be significantly shorter if a vulnerability is already being exploited in the wild since users need to know so they can take precautions.
 
-**Should a researcher publish without permission?** I think a researcher may do so after a reasonable deadline if the vendor does not respond or refuses to act, but it should not be the first choice. Publishing without a patch can give attackers a roadmap, and ordinary users are the ones put at risk. On the other hand, unlimited secrecy removes any pressure on vendors to fix problems, and users cannot defend themselves against risks they do not know about. Public deadlines are therefore a fair way to hold vendors accountable, as long as the researcher first gives the vendor a real chance to respond and is willing to extend the deadline when the vendor is clearly making progress.
+**Should a researcher publish without permission?** If the vendor doesn't reply or doesn't take action, I believe a researcher may do so after a fair amount of time, but it shouldn't be the first option. Publication without a fix may provide attackers with a road map, endangering regular users. However, unrestricted secrecy eliminates any incentive for providers to address issues, and consumers are unable to protect themselves from risks they are unaware of. As long as the researcher first provides the vendor a genuine opportunity to reply and is prepared to extend the date when the vendor is obviously making progress, public deadlines are a reasonable way to hold suppliers accountable.
 
-**The patch-gap problem.** Disclosure helps defenders, but it also alerts attackers. For CVE-2025-55182, Microsoft's security team observed exploitation attempts within days of the public disclosure. This shows that once a fix is public, organisations must patch quickly, and that a vendor's advisory should clearly explain how to mitigate the flaw.
+**The patch-gap problem.** Defenders benefit from disclosure, but attackers are also warned. Within days of the public publication, Microsoft's security team noticed attempts to exploit CVE-2025-55182. This demonstrates that organizations must promptly patch once a fix is made available to the public and that a vendor's advice should provide a clear explanation of how to mitigate the problem.
 
-**Bug bounty programs and legal protection.** Bug bounty programs and clear vulnerability disclosure policies encourage researchers to report privately instead of selling flaws or publishing them. They work best when the vendor promises not to take legal action against researchers acting in good faith. Without that protection, researchers may avoid reporting at all.
+**Bug bounty programs and legal protection.** Researchers are encouraged to report vulnerabilities in private rather than selling or exposing them through bug reward programs and explicit vulnerability disclosure procedures. They function best when the vendor guaranties that researchers acting in good faith won't face legal repercussions. Without such safeguard, researchers might decide not to report at all.
 
 **Conclusion.** My view is that coordinated disclosure with a firm but flexible deadline gives the best balance. It gives vendors time to produce a tested fix, gives users a fair chance to be protected, and still allows the researcher to go public if the vendor does not act.
 
