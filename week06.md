@@ -107,7 +107,7 @@ After loading the HTML page, the browser sent a GET request for `/mystyle.css` t
 | 26 | HTTP Request | `GET /mystyle.css HTTP/1.1` |
 | 29 | HTTP Response | `HTTP/1.1 200 OK (text/css)` |
 
-![HTTP Request](images/week6task4pic1.png)
+![HTTP Request](images/1st.png)
 
 ![HTTP Response](images/week6task4pic2.png)
 
