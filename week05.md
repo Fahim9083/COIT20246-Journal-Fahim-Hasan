@@ -3,7 +3,7 @@
 ## Task 1 – Knowledge Test
 
 I completed the Week 5 Knowledge Test as part of the tutorial activities.
-
+![Figure 1 – IPv4 routing table displayed with the route print command](<images/05.png>)
 ---
 
 ## Task 2 – Viewing the IPv4 Routing Table
