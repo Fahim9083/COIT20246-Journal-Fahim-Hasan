@@ -4,25 +4,8 @@
 
 Completed the Week 6 Knowledge Test covering the concepts discussed in the tutorial.
 
-![Knowledge Test Result](images/week6task1.png)
+![Knowledge Test Result](images/result.png)
 
-### Test Result
-
-- **Status:** Finished
-- **Started:** Friday, 18 September 2026, 8:31 PM
-- **Completed:** Friday, 18 September 2026, 8:49 PM
-- **Grade:** 1.25 / 10
-- **Percentage:** 12.5%
-- **Number of Questions:** 4
-- **Accuracy:** 37.5%
-
-The result by category was:
-
-| Category | Responses | Accuracy |
-|---|---:|---:|
-| C=3 | 2 | 75% |
-| C=2 | 2 | 0% |
-| C=1 | 0 | - |
 
 ---
 
