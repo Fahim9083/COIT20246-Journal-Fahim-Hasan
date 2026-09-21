@@ -109,9 +109,9 @@ After loading the HTML page, the browser sent a GET request for `/mystyle.css` t
 
 ![HTTP Request](images/1st.png)
 
-![HTTP Response](images/week6task4pic2.png)
+![HTTP Response](images/nn.png)
 
-![CSS Request and Response](images/week6task4pic3.png)
+![CSS Request and Response](images/oo.png)
 
 ---
 
