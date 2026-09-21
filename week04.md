@@ -238,10 +238,6 @@ The packet structure is therefore:
 
 ![First ICMP Packet Diagram](images/week4-task4-icmp-packet.png)
 
-### Original Draw.io File
-
-[Open the original draw.io file](images/week4-task4-icmp-packet.drawio)
-
 ---
 
 # Task 5 - View ARP Table (Optional)
