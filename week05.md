@@ -42,7 +42,7 @@ The `224.0.0.0/4` routes are used for IPv4 multicast traffic.
 The routing table shows `None`, meaning there are no manually configured persistent routes.
 
 ## Task 3(a) — IP Address Table
-![PowerShell Output](images/w5task3.drawio.png)
+![PowerShell Output](images/5.drawio.png)
 
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |---|---|---|---|---|
