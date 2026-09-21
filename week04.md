@@ -153,9 +153,6 @@ The remaining bytes are Ethernet padding used to meet the minimum Ethernet frame
 
 ![First ARP Packet Diagram](images/week4-task4-arp-packet.png)
 
-### Original Draw.io File
-
-[Open the original draw.io file](images/week4-task4-arp-packet.drawio)
 
 ---
 
