@@ -50,8 +50,7 @@ Four PCs are connected to the first switch, and another four PCs are connected t
 
 For this task, I analysed a previously captured ping packet file using Wireshark.
 
-The packet capture was used to understand how the ping command operates from a networking and protocol perspective. I examined ARP and ICMP packets and investigated how information is encapsulated across different network layers.
-
+To comprehend how the ping command functions from a networking and protocol standpoint, the packet capture was utilized. I studied how data is wrapped across various network layers and looked at ARP and ICMP packets.
 ---
 
 ## Task 4(a) - Inspect Packets in Wireshark
@@ -186,8 +185,7 @@ The Echo Request and Echo Reply demonstrate successful communication between the
 - Source MAC: `08:00:27:51:DA:12`
 - Destination MAC: `0A:00:27:00:00:0C`
 
-The Echo Request is used to test connectivity, while the Echo Reply confirms that the destination device received the request and was able to respond.
-
+While the Echo Reply verifies that the target device got the request and was able to reply, the Echo Request is used to test connectivity.
 ---
 
 ## Task 4(f) - First ICMP Packet Diagram
@@ -241,9 +239,9 @@ The packet structure is therefore:
 
 This task is optional.
 
-The ARP table can be viewed using PowerShell to identify devices that have been discovered on the local network.
+Devices found on the local network can be identified by using PowerShell to view the ARP table.
 
-After communicating with other devices, for example by using the ping command or accessing websites, the ARP table can be checked to identify the IP and MAC addresses stored by the computer.
+The IP and MAC addresses that the computer has saved can be found by checking the ARP table after interacting with other devices, such as by using the ping command or visiting websites.
 
 
 ### Reachable Devices
