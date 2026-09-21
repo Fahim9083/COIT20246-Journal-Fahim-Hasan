@@ -25,7 +25,7 @@ The network consists of one switch and four PCs. Each PC is connected directly t
 
 ### Network Diagram
 
-![Switched LAN with One Switch and Four PCs](images/week4-task3-lana.png)
+![Switched LAN with Three Switches and Eight PCs](images/week4-task3-lanb.png)
 
 ### Original Draw.io File
 
@@ -41,7 +41,7 @@ Four PCs are connected to the first switch, and another four PCs are connected t
 
 ### Network Diagram
 
-![Switched LAN with Three Switches and Eight PCs](images/week4-task3-lanb.png)
+![Wireshark Ping Packet Capture](images/week4-task4-wireshark.png)
 
 ### Original Draw.io File
 
@@ -255,9 +255,6 @@ The ARP table can be viewed using PowerShell to identify devices that have been 
 
 After communicating with other devices, for example by using the ping command or accessing websites, the ARP table can be checked to identify the IP and MAC addresses stored by the computer.
 
-### ARP Table Screenshot
-
-![ARP Table](images/week4-task5-arp-table.png)
 
 ### Reachable Devices
 
