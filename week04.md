@@ -38,7 +38,7 @@ Four PCs are connected to the first switch, and another four PCs are connected t
 
 ### Network Diagram
 
-![Wireshark Ping Packet Capture](images/week4-task4-wireshark.png)
+![Wireshark Ping Packet Capture](images/week4-task3-lanb.png)
 
 ### Original Draw.io File
 
