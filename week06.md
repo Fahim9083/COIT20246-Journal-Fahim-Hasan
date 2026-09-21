@@ -286,7 +286,7 @@ Cookies can be used to maintain sessions, remember user preferences, and help we
 
 For privacy reasons, the exact cookie values have not been included.
 
-![YouTube Cookies](images/week6task5.png)
+![YouTube Cookies](images/week06-task5-cookies.png)
 
 ---
 
