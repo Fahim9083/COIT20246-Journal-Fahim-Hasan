@@ -56,10 +56,6 @@ I would select a less congested wireless channel to reduce interference from nea
 
 Finally, I would use a modern wireless mode where supported so compatible devices can achieve better performance.
 
-### Screenshot
-
-I explored the wireless router settings using the TP-Link web emulator.
-![Wi-Fi Access Point Settings](images/week7-task3-ap-settings.png)
 
 
 ### Generative AI Suggestions for Improving Teamwork
@@ -84,6 +80,8 @@ The main suggestions were:
 ## Task 4 - Self-Evaluation of Teamwork
 
 ### Part B - Comparison with Generative AI Suggestions
+
+![Wi-Fi Access Point Settings](images/git.png)
 
 The generative AI suggestions provided several practical ways to improve teamwork, including regular communication, clear task allocation, participation in meetings, accountability, helping team members, and sharing progress.
 
