@@ -25,11 +25,8 @@ The network consists of one switch and four PCs. Each PC is connected directly t
 
 ### Network Diagram
 
-![Switched LAN with Three Switches and Eight PCs](images/week4-task3-lanb.png)
+![Switched LAN with Three Switches and Eight PCs](images/ll.png)
 
-### Original Draw.io File
-
-[Open the original draw.io file](images/week4-task3-lana.drawio)
 
 ---
 
