@@ -184,7 +184,7 @@ The HTTP request for the newly created webpage was Packet 20.
 
 ### Packet Flow
 
-![HTTP Packet Diagram](Images/mm.png)
+![HTTP Packet Diagram](images/mm.png)
 
 ---
 
