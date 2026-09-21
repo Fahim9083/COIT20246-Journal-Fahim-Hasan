@@ -50,9 +50,9 @@ I explored the settings of a wireless router using the TP-Link web emulator.
 
 When designing a Wi-Fi network, I would consider the SSID, security, password, channel, channel width and wireless mode.
 
-I would use a clear and unique SSID so users can easily identify the correct network. I would use WPA3-Personal where supported because it provides stronger wireless security. I would also use a strong and unique password to reduce the risk of unauthorised access.
+To make it simple for users to identify the right network, I would choose a clear and distinctive SSID. Since WPA3-Personal offers more robust wireless security, I would use it anywhere it is supported. In order to lower the possibility of unwanted access, I would also use a strong and distinctive password.
 
-I would select a less congested wireless channel to reduce interference from nearby networks. I would also choose an appropriate channel width because the choice of channel width can affect wireless performance and interference.
+To lessen interference from neighboring networks, I would choose a less crowded wireless channel. Additionally, since channel width might have an impact on interference and wireless performance, I would select a suitable channel width.
 
 Finally, I would use a modern wireless mode where supported so compatible devices can achieve better performance.
 
@@ -60,7 +60,7 @@ Finally, I would use a modern wireless mode where supported so compatible device
 
 ### Generative AI Suggestions for Improving Teamwork
 
-I used generative AI to identify practical ways to improve teamwork in a university group project.
+In a collaborative project at university, I used generative AI to find useful strategies for enhancing teamwork.
 
 The main suggestions were:
 
@@ -101,8 +101,8 @@ I compared these suggestions with the way my project team currently works.
 
 ### Reflection
 
-Overall, my current team practices are consistent with many of the suggestions provided by generative AI. Our team communicates, divides tasks, participates in meetings, uses GitHub, and supports each other.
+Generally speaking, many of the suggestions offered by generative AI are in line with my team's current practices. Our team interacts, assigns tasks, attends meetings, uses GitHub, and supports one another.
 
-To improve my teamwork over the next few weeks, I will communicate my progress more regularly, complete my assigned tasks on time, participate actively in discussions, and make clear contributions to the GitHub project repository.
+In order to increase my collaboration, I will communicate my progress more regularly over the next few weeks, complete the tasks assigned to me on time, actively participate in discussions, and clearly add to the GitHub project repository.
 
 My main contribution to the project so far has been **[write your actual contribution here]**.
